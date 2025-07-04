@@ -1,7 +1,7 @@
 
-![](https://github.com/arietimmerman/laravel-url-shortener/workflows/CI/badge.svg)
-[![Latest Stable Version](https://poser.pugx.org/arietimmerman/laravel-url-shortener/v/stable)](https://packagist.org/packages/arietimmerman/laravel-url-shortener)
-[![Total Downloads](https://poser.pugx.org/arietimmerman/laravel-url-shortener/downloads)](https://packagist.org/packages/arietimmerman/laravel-url-shortener)
+![](https://github.com/mauroziux/laravel-url-shortener/workflows/CI/badge.svg)
+[![Latest Stable Version](https://poser.pugx.org/mauroziux/laravel-url-shortener/v/stable)](https://packagist.org/packages/mauroziux/laravel-url-shortener)
+[![Total Downloads](https://poser.pugx.org/mauroziux/laravel-url-shortener/downloads)](https://packagist.org/packages/mauroziux/laravel-url-shortener)
 
 A minimal Laravel package for shortening URLs. Apart for creating short URLs - like bitly - it also supported updating URL redirects and tracking URL clicks.
 
@@ -10,7 +10,7 @@ A minimal Laravel package for shortening URLs. Apart for creating short URLs - l
 Install the package. It supports Laravel 9.0, 10.0, and 11.0.
 
 ~~~
-composer require arietimmerman/laravel-url-shortener
+composer require mauroziux/laravel-url-shortener
 php artisan migrate
 ~~~
 
@@ -36,14 +36,14 @@ php artisan url:shorten http://www.example.com
 Publish the configuration and the view.
 
 ~~~.php
-php artisan vendor:publish --provider="ArieTimmerman\Laravel\URLShortener\ServiceProvider"
+php artisan vendor:publish --provider="Mauroziux\Laravel\URLShortener\ServiceProvider"
 ~~~
 
 Optionally, register for URLVisit events in your `EventServiceProvider`.
 
 ~~~.php
 protected $listen = [
-	'ArieTimmerman\Laravel\URLShortener\Events\URLVisit' => [
+	'Mauroziux\Laravel\URLShortener\Events\URLVisit' => [
 		'App\Listener\YourListener',
 	]
 ];

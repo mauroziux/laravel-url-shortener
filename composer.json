@@ -1,14 +1,21 @@
 {
-  "name": "arietimmerman/laravel-url-shortener",
+  "name": "mauroziux/laravel-url-shortener",
   "description": "Laravel Package for shortening urls with Laravel 10 and 11 support",
   "type": "library",
   "license": "MIT",
-  "keywords": ["laravel", "url", "shortener", "redirect", "bitly", "tracking"],
-  "homepage": "https://github.com/arietimmerman/laravel-url-shortener",
+  "keywords": [
+    "laravel",
+    "url",
+    "shortener",
+    "redirect",
+    "bitly",
+    "tracking"
+  ],
+  "homepage": "https://github.com/mauroziux/laravel-url-shortener",
   "authors": [
     {
-      "name": "Arie Timmerman",
-      "email": "arietimmerman@gmail.com"
+      "name": "Mauricio Suarez",
+      "email": "mauroziux@gmail.com"
     }
   ],
   "require": {
@@ -23,12 +30,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "ArieTimmerman\\Laravel\\URLShortener\\": "src/"
+      "Mauroziux\\Laravel\\URLShortener\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ArieTimmerman\\Laravel\\URLShortener\\Tests\\": "tests"
+      "Mauroziux\\Laravel\\URLShortener\\Tests\\": "tests"
     }
   },
   "require-dev": {
@@ -42,10 +49,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ArieTimmerman\\Laravel\\URLShortener\\ServiceProvider"
+        "Mauroziux\\Laravel\\URLShortener\\ServiceProvider"
       ],
       "aliases": {
-        "URLShortener": "ArieTimmerman\\Laravel\\URLShortener\\URLShortener"
+        "URLShortener": "Mauroziux\\Laravel\\URLShortener\\URLShortener"
       }
     }
   }
