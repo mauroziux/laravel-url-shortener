@@ -1,10 +1,10 @@
 <?php
 
-namespace ArieTimmerman\Laravel\OAuth2\Tests;
+namespace Mauroziux\Laravel\URLShortener\Tests;
 
 use Orchestra\Testbench\TestCase;
-use ArieTimmerman\Laravel\URLShortener\URL;
-use ArieTimmerman\Laravel\URLShortener\URLShortener;
+use Mauroziux\Laravel\URLShortener\URL;
+use Mauroziux\Laravel\URLShortener\URLShortener;
 use Illuminate\Support\Facades\Route;
 
 class RouteTest extends TestCase

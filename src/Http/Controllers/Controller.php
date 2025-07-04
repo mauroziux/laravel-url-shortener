@@ -1,6 +1,6 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener\Http\Controllers;
+namespace Mauroziux\Laravel\URLShortener\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

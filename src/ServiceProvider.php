@@ -4,9 +4,9 @@
  * Laravel service provider for registering the routes and publishing the configuration.
  */
 
-namespace ArieTimmerman\Laravel\URLShortener;
+namespace Mauroziux\Laravel\URLShortener;
 
-use ArieTimmerman\Laravel\URLShortener\Console\URLShortenerCommand;
+use Mauroziux\Laravel\URLShortener\Console\URLShortenerCommand;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

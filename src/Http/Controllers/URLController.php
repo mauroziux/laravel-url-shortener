@@ -1,12 +1,12 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener\Http\Controllers;
+namespace Mauroziux\Laravel\URLShortener\Http\Controllers;
 
 use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
-use ArieTimmerman\Laravel\URLShortener\URL;
-use ArieTimmerman\Laravel\URLShortener\URLShortener;
+use Mauroziux\Laravel\URLShortener\URL;
+use Mauroziux\Laravel\URLShortener\URLShortener;
 
 class URLController extends Controller
 {

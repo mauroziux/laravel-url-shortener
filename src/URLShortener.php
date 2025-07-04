@@ -1,6 +1,6 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener;
+namespace Mauroziux\Laravel\URLShortener;
 use Route;
 
 /**
@@ -39,7 +39,7 @@ class URLShortener
     
     public static function routeResource(array $options = [])
     {
-        Route::resource('urls', \ArieTimmerman\Laravel\URLShortener\Http\Controllers\URLController::class);
+        Route::resource('urls', \Mauroziux\Laravel\URLShortener\Http\Controllers\URLController::class);
     }
     
     public static function routeRedirect(array $options = [])
@@ -47,7 +47,7 @@ class URLShortener
 
         $prefixCode = config("urlshortener.url_prefix_code");
 
-        Route::get($prefixCode . '{code}', '\ArieTimmerman\Laravel\URLShortener\Http\Controllers\RedirectController@index')->where('code', '^[^/]+$')->name('urlshortener.redirect');
+        Route::get($prefixCode . '{code}', '\Mauroziux\Laravel\URLShortener\Http\Controllers\RedirectController@index')->where('code', '^[^/]+$')->name('urlshortener.redirect');
     }
     
     public static function shorten($url)

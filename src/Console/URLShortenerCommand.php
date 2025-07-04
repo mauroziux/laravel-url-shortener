@@ -1,8 +1,8 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener\Console;
+namespace Mauroziux\Laravel\URLShortener\Console;
 
-use ArieTimmerman\Laravel\URLShortener\URLShortener;
+use Mauroziux\Laravel\URLShortener\URLShortener;
 use Illuminate\Console\Command;
 
 class URLShortenerCommand extends Command

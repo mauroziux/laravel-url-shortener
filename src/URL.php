@@ -1,6 +1,6 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener;
+namespace Mauroziux\Laravel\URLShortener;
 
 use Illuminate\Database\Eloquent\Model;
 use Webpatser\Uuid\Uuid;

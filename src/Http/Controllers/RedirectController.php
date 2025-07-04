@@ -1,11 +1,11 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener\Http\Controllers;
+namespace Mauroziux\Laravel\URLShortener\Http\Controllers;
 
 use Illuminate\Http\Request;
-use ArieTimmerman\Laravel\URLShortener\URL;
-use ArieTimmerman\Laravel\URLShortener\URLShortener;
-use ArieTimmerman\Laravel\URLShortener\Events\URLVisit;
+use Mauroziux\Laravel\URLShortener\URL;
+use Mauroziux\Laravel\URLShortener\URLShortener;
+use Mauroziux\Laravel\URLShortener\Events\URLVisit;
 
 /**
  * Controller for redirecting users to the URL behind the shortened URL

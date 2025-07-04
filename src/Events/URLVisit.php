@@ -1,9 +1,9 @@
 <?php
 
-namespace ArieTimmerman\Laravel\URLShortener\Events;
+namespace Mauroziux\Laravel\URLShortener\Events;
 
 use Illuminate\Queue\SerializesModels;
-use ArieTimmerman\Laravel\URLShortener\URL;
+use Mauroziux\Laravel\URLShortener\URL;
 
 /**
  * Event emitted when a shortened URL is accessed

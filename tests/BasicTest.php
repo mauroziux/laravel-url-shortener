@@ -1,9 +1,9 @@
 <?php
 
-namespace ArieTimmerman\Laravel\OAuth2\Tests;
+namespace Mauroziux\Laravel\URLShortener\Tests;
 
 use Orchestra\Testbench\TestCase;
-use ArieTimmerman\Laravel\URLShortener\URL;
+use Mauroziux\Laravel\URLShortener\URL;
 
 class BasicTest extends TestCase
 {
