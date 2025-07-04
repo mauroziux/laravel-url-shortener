@@ -7,7 +7,7 @@ A minimal Laravel package for shortening URLs. Apart for creating short URLs - l
 
 # Laravel URL Shortener
 
-Install the package. It supports Laravel 5.5 and up (including 7.0 and up).
+Install the package. It supports Laravel 9.0, 10.0, and 11.0.
 
 ~~~
 composer require arietimmerman/laravel-url-shortener
@@ -26,13 +26,10 @@ Or
 php artisan url:shorten http://www.example.com
 ~~~
 
-## Usage for Laravel < 5.5
+## Requirements
 
-Add the _service provider_ in your `config/app.php`.
-
-~~~.php
-'providers' => [ /* [..] */ \ArieTimmerman\Laravel\URLShortener\ServiceProvider::class /* [..] */ ];
-~~~
+- PHP 8.1 or higher
+- Laravel 9.0, 10.0, or 11.0
 
 ## Optional
 
