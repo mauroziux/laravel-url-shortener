@@ -1,3 +1,3 @@
 <?php
 
-ArieTimmerman\Laravel\URLShortener\URLShortener::routes();
+Mauroziux\Laravel\URLShortener\URLShortener::routes();

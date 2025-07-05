@@ -10,7 +10,7 @@ WORKDIR /example
 COPY . /laravel-url-shortener
 RUN jq '.repositories=[{"type": "path","url": "/laravel-url-shortener"}]' ./composer.json | sponge ./composer.json
 
-RUN composer require arietimmerman/laravel-url-shortener @dev
+RUN composer require mauroziux/laravel-url-shortener @dev
 
 RUN touch ./.database.sqlite && \
     echo "DB_CONNECTION=sqlite" >> ./.env && \
